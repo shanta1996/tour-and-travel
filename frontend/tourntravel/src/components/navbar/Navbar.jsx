@@ -7,7 +7,7 @@ const Navbar = () => {
         <nav className='bg-slate-200 py-6 w-[100%] fixed left-0 right-0 top-0 z-10'>
             <div className='flex justify-around items-center  px-11'>
             <div className='flex items-center  text-[18px] md:text-[20px] w-[100%] relative'>
-                <a href=""  className='flex items-center '>
+                <a href="/"  className='flex items-center '>
                 <img src="/logo.webp" alt="logo" className='h-[50px]' />
                 <h2 className='font-semibold text-[20px] sm:text-[23px] md:text-[25px] xl:text-[28px] 2xl:text-[30px] '>Roam & Explore</h2>
                 </a>
@@ -24,6 +24,9 @@ const Navbar = () => {
                 </li>
                 <li className='tracking-[1px]'>
                 <a href="">Trekking</a>
+                </li>
+                <li className='tracking-[1px]'>
+                <a href="/contactpage">Contact</a>
                 </li>
                 
               
