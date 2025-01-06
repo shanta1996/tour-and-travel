@@ -1,10 +1,10 @@
 import React from 'react'
-import Contact from '../components/contact/Contact'
+import Carrousel from '../components/homeSlider/Carrousel'
 
 const HomePage = () => {
   return (
     <>
-
+  <Carrousel/>
     </>
   )
 }
