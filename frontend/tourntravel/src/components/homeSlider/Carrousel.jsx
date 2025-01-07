@@ -7,8 +7,8 @@ const Carrousel = () => {
     <>
       <div className='w-full h-[500px] flex flex-wrap overflow-hidden'>
         {
-          imageSlider.map((image, index) => {
-            return <ImageCard image={image} key={index} />
+          imageSlider.map((slides, index) => {
+            return <ImageCard slides={slides} key={index} />
           })
         }
       </div>
