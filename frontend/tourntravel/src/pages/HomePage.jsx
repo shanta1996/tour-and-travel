@@ -1,10 +1,15 @@
 import React from 'react'
-import ImageCarousel from '../components/homeSlider/ImageCarousel'
+import Home from '../components/home/Home'
+
+
 
 const HomePage = () => {
   return (
     <>
-  <ImageCarousel/>
+      <div className='w-full'>
+        <Home/>
+        
+      </div>
 
     </>
   )
