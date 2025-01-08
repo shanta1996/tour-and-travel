@@ -1,10 +1,10 @@
 import React from 'react'
-import Carrousel from '../components/homeSlider/Carrousel'
+import ImageCarousel from '../components/homeSlider/ImageCarousel'
 
 const HomePage = () => {
   return (
     <>
-  <Carrousel/>
+  <ImageCarousel/>
 
     </>
   )

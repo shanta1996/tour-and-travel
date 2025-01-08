@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { RxHamburgerMenu } from "react-icons/rx";
+import { RxCross2 } from "react-icons/rx";
 
 const Navbar = () => {
+    const [ham, setham] = useState(true)
+    const hamBurger=()=>{
+        setham(!ham)
+    }
     return (
         <>
-        
         <nav className='bg-slate-200 py-6 w-[100%] '>
             <div className='flex justify-around items-center  px-11'>
             <div className='flex items-center  text-[18px] md:text-[20px] w-[100%] relative'>
@@ -28,8 +33,9 @@ const Navbar = () => {
                 <li className='tracking-[1px]'>
                 <a href="/contactpage">Contact</a>
                 </li>
-                
-              
+                <li className='text-2xl md:hidden block' onClick={hamBurger}>
+               {ham? <RxHamburgerMenu />:<RxCross2 />}
+                </li> 
             </ul>
             </div>
         </nav>
