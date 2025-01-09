@@ -4,11 +4,13 @@ import Layouts from '../layouts/Layouts'
 import HomePage from '../pages/HomePage'
 import Contact from '../components/contact/Contact'
 import Destinations from '../components/destinations/Destinations'
+import ErrorPage from '../pages/ErrorPage'
 
 const router=createBrowserRouter([
     {
         path:'/',
         element:<Layouts/>,
+        errorElement:<ErrorPage/>,
         children:[
             {
                 index:true,

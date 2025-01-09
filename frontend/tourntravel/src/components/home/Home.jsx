@@ -1,7 +1,8 @@
 import React from 'react'
 import ImageCarousel from '../homeSlider/ImageCarousel'
 import { Link } from 'react-router-dom'
-import Fetch from '../../APIS/Fetch'
+import DestinationApi from '../../context/Apis/DestinationApi'
+
 
 const Home = () => {
     return (
@@ -17,7 +18,7 @@ const Home = () => {
                     <Link a="">India</Link>
 
                 </div>
-           <Fetch/>
+           <DestinationApi/>
             </div>
         </>
     )
