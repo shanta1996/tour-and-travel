@@ -10,7 +10,7 @@ const HomePage = () => {
       <div className='w-full'>
         <ImageCarousel/>
         <Home/>
-       
+    
       </div>
 
     </>
