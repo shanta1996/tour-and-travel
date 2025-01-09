@@ -1,13 +1,13 @@
-import React from 'react'
-import ImageCarousel from '../homeSlider/ImageCarousel'
+import React, { useEffect, useState, useTransition } from 'react'
+import ImageCarousel from './ImageCarousel'
 import { Link } from 'react-router-dom'
-import DestinationApi from '../../context/Apis/DestinationApi'
 
 
 const Home = () => {
+
     return (
         <>
-            <ImageCarousel />
+            {/* <ImageCarousel /> */}
             {/* DESTINATIONS PART  */}
             <div className='h-[50vh] w-full bg-red-400'>
                 <p>Destinatios</p>
@@ -18,7 +18,6 @@ const Home = () => {
                     <Link a="">India</Link>
 
                 </div>
-           <DestinationApi/>
             </div>
         </>
     )
