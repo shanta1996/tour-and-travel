@@ -26,22 +26,22 @@ const Navbar = () => {
                         {ham?'':<RxCross2 />}
                         </li>
                         <li className='tracking-[1px]'>
-                            <NavLink to="/" className={({isActive})=>isActive?'text-teal-500':'text-black'}>Home</NavLink>
+                            <NavLink to="/" className={({isActive})=>isActive?'text-textTeal':'text-black'}>Home</NavLink>
                         </li>
                         <li className='tracking-[1px]'>
-                            <NavLink to="/destinations" className={({isActive})=>isActive?'text-teal-500':'text-black'}>Destination</NavLink>
+                            <NavLink to="/destinations" className={({isActive})=>isActive?'text-textTeal':'text-black'}>Destination</NavLink>
                         </li>
                         <li className='tracking-[1px]'>
-                            <NavLink to="/transport" className={({isActive})=>isActive?'text-teal-500':'text-black'}>Transport</NavLink>
+                            <NavLink to="/transport" className={({isActive})=>isActive?'text-textTeal':'text-black'}>Transport</NavLink>
                         </li>
                         <li className='tracking-[1px]'>
-                            <NavLink to="/tour" className={({isActive})=>isActive?'text-teal-500':'text-black'}>Tour</NavLink>
+                            <NavLink to="/tour" className={({isActive})=>isActive?'text-textTeal':'text-black'}>Tour</NavLink>
                         </li>
                         <li className='tracking-[1px]'>
-                            <NavLink to="/trekking" className={({isActive})=>isActive?'text-teal-500':'text-black'}>Trekking</NavLink>
+                            <NavLink to="/trekking" className={({isActive})=>isActive?'text-textTeal':'text-black'}>Trekking</NavLink>
                         </li>
                         <li className='tracking-[1px]'>
-                            <NavLink to="/contactpage" className={({isActive})=>isActive?'text-teal-500':'text-black'}>Contact</NavLink>
+                            <NavLink to="/contactpage" className={({isActive})=>isActive?'text-textTeal':'text-black'}>Contact</NavLink>
                         </li>
                         
 

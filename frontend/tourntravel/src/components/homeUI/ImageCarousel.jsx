@@ -32,7 +32,7 @@ const ImageCarousel = () => {
       <div className="relative overflow-hidden w-full h-full">
         <img
           src={images[currentIndex].urls}
-          className="w-full h-full object-cover transition-all duration-500 ease-in-out"
+          className="w-full h-full object-cover transition-all duration-500 ease-in-out rounded-lg"
         />
         <p className='description absolute text-center top-0 w-full h-full text-[25px] md:text-[50px] 2xl:text-[60px] text-white flex items-center justify-center px-7'>{images[currentIndex].description}</p>
         
