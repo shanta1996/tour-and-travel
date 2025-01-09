@@ -8,6 +8,9 @@ export default {
     extend: {
       colors:{
         'textTeal':'#0d9488'
+      },
+      backgroundColor:{
+        'bgTeal':'#14b8a6'
       }
     },
   },
