@@ -1,10 +1,7 @@
-import React, { useEffect, useState, useTransition } from 'react'
-import ImageCarousel from './ImageCarousel'
 import { Link } from 'react-router-dom'
 
 
 const Home = () => {
-
     return (
         <>
             {/* <ImageCarousel /> */}

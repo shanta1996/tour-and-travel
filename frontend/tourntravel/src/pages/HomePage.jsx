@@ -1,6 +1,7 @@
 import React from 'react'
 import Home from '../components/homeUI/Home'
 import ImageCarousel from '../components/homeUI/ImageCarousel'
+import DestData from '../UI/destinations/DestData'
 
 
 
@@ -9,8 +10,8 @@ const HomePage = () => {
     <>
       <div className='w-full'>
         <ImageCarousel/>
-        <Home/>
-    
+        <DestData/>
+        {/* <Home/> */}
       </div>
 
     </>
