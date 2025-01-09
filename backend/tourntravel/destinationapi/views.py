@@ -1,6 +1,10 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from rest_framework import generics
+from .models import *
+from .serializers import *
 
 # Create your views here.
-def index(request):
-    return HttpResponse("hello there")
+
+class GetCountry(generics.ListAPIView):
+    queryset=Country.objects.all()
+    serializer_class=CountrySerializer

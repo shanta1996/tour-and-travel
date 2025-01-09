@@ -1,6 +1,7 @@
 import React from 'react'
 import ImageCarousel from '../homeSlider/ImageCarousel'
 import { Link } from 'react-router-dom'
+import Fetch from '../../APIS/Fetch'
 
 const Home = () => {
     return (
@@ -16,8 +17,8 @@ const Home = () => {
                     <Link a="">India</Link>
 
                 </div>
+           <Fetch/>
             </div>
-
         </>
     )
 }
