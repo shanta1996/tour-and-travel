@@ -15,6 +15,7 @@ class Country(models.Model):
     religions=models.CharField(max_length=300)
     telephone_code=models.CharField(max_length=150)
     image=models.FileField(upload_to='static/uploads')
+    description=models.CharField(max_length=1000,default=True,null=True,blank=True)
 
     def __str__(self):
-        return self.country_name
+        return self.country_name.country_name
