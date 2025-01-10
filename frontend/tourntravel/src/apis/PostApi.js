@@ -9,5 +9,5 @@ export const getDestinationApi=()=>{
 }
 // http get method getting indivisual data
 export const getSingleDestinationApi=(id)=>{
-    return api.get(`getcountry/${id}`)
+    return api.get(`getcountry/${id}/`)
 }
