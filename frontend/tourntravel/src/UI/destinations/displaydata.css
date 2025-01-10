@@ -4,3 +4,6 @@
 .card:hover .text-card{
     opacity: 1;
 }
+/* .card:hover{
+   transform: translateY(-20px);
+} */

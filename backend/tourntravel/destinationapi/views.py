@@ -9,10 +9,10 @@ from rest_framework.response import Response
 
 class GetCountry(generics.ListAPIView):
     queryset=Country.objects.all()
-    serializer_class=CountrySerializer
+    serializer_class=CountrySerializer 
 
 class GetSingleCountry(APIView):
     def get(self,request,id):
         queryset=Country.objects.get(id=id)
-        serializer=CountrySerializer(queryset)
+        serializer=CoutryNameSerializer(queryset)
         return Response(serializer.data)
