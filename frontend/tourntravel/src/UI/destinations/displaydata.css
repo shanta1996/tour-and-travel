@@ -1,0 +1,6 @@
+/* .card:hover{
+   transform: rotate3d(-4,2,0,10deg);
+} */
+.card:hover .text-card{
+    opacity: 1;
+}
