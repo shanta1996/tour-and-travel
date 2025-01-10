@@ -4,7 +4,7 @@ import Layouts from '../layouts/Layouts'
 import HomePage from '../pages/HomePage'
 import Contact from '../components/contact/Contact'
 import ErrorPage from '../pages/ErrorPage'
-import SingleCard from '../UI/destinations/SingleCard'
+import SingleData from '../UI/destinations/SingleData'
 
 const router=createBrowserRouter([
     {
@@ -22,7 +22,7 @@ const router=createBrowserRouter([
             },
             {
               path:'/destination/:id',
-              element:<SingleCard/>
+              element:<SingleData/>
             },
          
         ]
